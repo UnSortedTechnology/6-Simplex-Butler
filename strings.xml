@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">6 Simplex Butler</string>
+    <string name="title_activity_maps">6 Simplex Butler App</string>
+    <string name="API_KEY">AIzaSyCpFdGW77_8vwH8QTm2ZjnKeWpa9L_tYgE</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

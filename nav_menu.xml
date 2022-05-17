@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single"
+        android:orderInCategory="5"
+        >
+
+        <item
+            android:id="@+id/nagpur"
+            android:title="Nagpur"
+            android:checkable="true"
+            android:onClick="onClickedCityNagpur"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:orderInCategory="1"/>
+
+        <item
+            android:id="@+id/mumbai"
+            android:title="Mumbai"
+            android:checkable="true"
+            android:onClick="onClickedCityMumbai"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:orderInCategory="2"/>
+
+
+        <item
+            android:id="@+id/delhi"
+            android:title="Delhi"
+            android:checkable="true"
+            android:onClick="onClickedCityDelhi"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:orderInCategory="3"/>
+
+
+        <item
+            android:id="@+id/hyderabad"
+            android:title="Hyderabad"
+            android:checkable="true"
+            android:onClick="onClickedCityHyderabad"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:orderInCategory="4"/>
+
+
+        <item
+            android:id="@+id/indore"
+            android:title="Indore"
+            android:checkable="true"
+            android:onClick="onClickedCityIndore"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:orderInCategory="5"/>
+
+
+
+    </group>
+
+
+</menu>
